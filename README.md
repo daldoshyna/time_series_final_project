@@ -21,7 +21,7 @@ The notebook forecasts the next 48 hours of hourly electricity generation (2026-
 - The first code cell installs everything with the pinned versions from the course template:
 
 ```
-!pip install -q statsforecast==2.1.1 neuralforecast==3.3.0 chronos-forecasting==2.3.2 "timesfm[torch]==3.0.2" tirex-ts==1.4.2
+!pip install -q statsforecast==2.1.1
 ```
 
   The model code itself only uses the packages listed above. The other packages in that line come from the course template and are not used. The `!pip` line works in Jupyter and Colab. If you run the notebook as a plain Python script, install the packages manually.

@@ -43,6 +43,6 @@ The code has no random components. The same data gives the same forecast.
 ## AI Usage
 
 I used AI to:
-- write some of the code
+- write some of the code (for example, to write functions to run and test multiple models)
 - search for alternative solutions (for example, to search for alternative models to try using, beyond simple ETS/ARIMA)
 - rephrase some parts of my report and README to make it more concise

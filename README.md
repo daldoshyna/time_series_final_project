@@ -2,7 +2,7 @@
 
 The notebook forecasts the next 48 hours of hourly electricity generation (2026-10-27 01:00 to 2026-10-29 00:00) with a 95% prediction interval.
 
-**Final model:** `HarmARMA_K2+SNaive`, an equal-weight blend of
+**Final model:** `HarmARMA_K4+SNaive`, an equal-weight blend of
 1. a harmonic regression with ARMA errors (2 daily Fourier harmonics, ARMA(2,0,1) errors, fitted on `log(y + 20)` using the last 28 days), and
 2. the seasonal-naive forecast (repeat yesterday).
 
